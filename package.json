@@ -1,0 +1,10 @@
+{
+  "name": "automemory",
+  "version": "1.0.0",
+  "description": "Never say 'remember this' again — your AI just knows what matters",
+  "main": "src/index.js",
+  "type": "module",
+  "keywords": ["heyron", "memory", "agent", "recall", "auto-save"],
+  "author": "Lappies",
+  "license": "MIT"
+}

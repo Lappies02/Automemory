@@ -1,0 +1,38 @@
+# Memory Hive Configuration
+
+# Auto-save settings
+autoSave:
+  # How "important" something must be to auto-save (0-1)
+  # Higher = saves less, Lower = saves more
+  # Default 0.5 - captures most meaningful messages
+  threshold: 0.5
+  
+  # Maximum memories to keep (optional cleanup)
+  maxMemories: 1000
+
+# Auto-recall settings  
+recall:
+  # Max memories to pull at session start
+  limit: 5
+  
+  # Minimum importance to recall
+  minImportance: 0.3
+
+# Inference engine settings
+inference:
+  # Enable smart connections
+  enabled: true
+  
+  # How deeply to search for associations
+  depth: 2
+
+# Vault settings
+vault:
+  # Where to store memory files
+  path: ./memory-hive-vault
+  
+  # Max memories to keep (auto-cleanup when exceeded)
+  maxMemories: 500
+  
+  # Auto-cleanup old memories (in days)
+  retentionDays: 90
